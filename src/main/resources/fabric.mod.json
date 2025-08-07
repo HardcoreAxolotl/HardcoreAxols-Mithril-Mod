@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "mithril",
+  "version": "${version}",
+  "name": "Mithril",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/mithril/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "axolotlplayground.mithril.client.MithrilDataGenerator"
+    ],
+    "client": [
+      "axolotlplayground.mithril.client.MithrilClient"
+    ],
+    "main": [
+      "axolotlplayground.mithril.Mithril"
+    ]
+  },
+  "mixins": [
+    "mithril.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
