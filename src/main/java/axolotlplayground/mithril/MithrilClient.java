@@ -1,4 +1,4 @@
-package axolotlplayground.mithril.client;
+package axolotlplayground.mithril;
 
 import net.fabricmc.api.ClientModInitializer;
 

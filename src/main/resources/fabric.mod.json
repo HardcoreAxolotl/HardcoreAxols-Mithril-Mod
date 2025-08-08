@@ -7,14 +7,14 @@
   "authors": [],
   "contact": {},
   "license": "All-Rights-Reserved",
-  "icon": "assets/mithril/icon.png",
+  "icon": "assets/mithril/items/mithril_ingot.png",
   "environment": "*",
   "entrypoints": {
     "fabric-datagen": [
-      "axolotlplayground.mithril.client.MithrilDataGenerator"
+      "axolotlplayground.mithril.MithrilDataGenerator"
     ],
     "client": [
-      "axolotlplayground.mithril.client.MithrilClient"
+      "axolotlplayground.mithril.MithrilClient"
     ],
     "main": [
       "axolotlplayground.mithril.Mithril"
