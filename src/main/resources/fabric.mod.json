@@ -3,9 +3,11 @@
   "id": "mithril",
   "version": "${version}",
   "name": "Mithril",
-  "description": "",
-  "authors": [],
-  "contact": {},
+  "description": "This mod add mithril to the game",
+  "authors": ["HardcoreAxol"],
+  "contact": {
+
+  },
   "license": "MIT License",
   "icon": "assets/mithril/textures/item/mithril_ingot.png",
   "environment": "*",
