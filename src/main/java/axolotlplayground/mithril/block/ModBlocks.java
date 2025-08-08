@@ -15,17 +15,17 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
 
     public static final Block MITHRIL_BLOCK = registerBlock("mithril_block", new Block(AbstractBlock.Settings.create()
-            .strength(70f, 2400)
+            .strength(10f, 1f)
             .requiresTool()
             .sounds(BlockSoundGroup.NETHERITE)
     ));
     public static final Block MITHRIL_ORE = registerBlock("mithril_ore", new Block(AbstractBlock.Settings.create()
-            .strength(40f, 1800)
+            .strength(5f, 1f)
             .requiresTool()
             .sounds(BlockSoundGroup.STONE)
     ));
     public static final Block RAW_MITHRIL_BlOCK = registerBlock("raw_mithril_block", new Block(AbstractBlock.Settings.create()
-            .strength(70f, 2400)
+            .strength(8f, 1f)
             .requiresTool()
             .sounds(BlockSoundGroup.STONE)
     ));
@@ -42,12 +42,6 @@ public class ModBlocks {
 
     public static void registerModBlocks() {
         Mithril.LOGGER.info("Registering Mod Blocks for " + Mithril.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-            entries.add(MITHRIL_BLOCK);
-            entries.add(MITHRIL_ORE);
-            entries.add(RAW_MITHRIL_BlOCK);
-        });
     }
 
 }

@@ -4,5 +4,6 @@
   "item.mithril.mithril_nugget": "Mithril Nugget",
   "block.mithril.mithril_block": "Mithril Block",
   "block.mithril.mithril_ore": "Mithril Ore",
-  "block.mithril.raw_mithril_block": "Block of Raw Mithril"
+  "block.mithril.raw_mithril_block": "Block of Raw Mithril",
+  "itemgroup.mithril.mithril": "Mithril"
 }

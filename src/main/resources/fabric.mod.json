@@ -6,8 +6,8 @@
   "description": "",
   "authors": [],
   "contact": {},
-  "license": "All-Rights-Reserved",
-  "icon": "assets/mithril/items/mithril_ingot.png",
+  "license": "MIT License",
+  "icon": "assets/mithril/textures/item/mithril_ingot.png",
   "environment": "*",
   "entrypoints": {
     "fabric-datagen": [

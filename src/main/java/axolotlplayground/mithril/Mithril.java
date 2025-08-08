@@ -1,6 +1,7 @@
 package axolotlplayground.mithril;
 
 import axolotlplayground.mithril.block.ModBlocks;
+import axolotlplayground.mithril.group.ModGroups;
 import axolotlplayground.mithril.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -16,5 +17,6 @@ public class Mithril implements ModInitializer {
 
         ModItems.registerModItems();
         ModBlocks.registerModBlocks();
+        ModGroups.registerItemGroups();
     }
 }

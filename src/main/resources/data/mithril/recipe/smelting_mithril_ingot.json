@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smelting",
+    "category": "misc",
+    "ingredient": {
+        "item": "mithril:mithril_ingot"
+    },
+    "result": {
+        "id": "mithril:mithril_nugget"
+    },
+    "experience": 2,
+    "cookingtime": 300
+}

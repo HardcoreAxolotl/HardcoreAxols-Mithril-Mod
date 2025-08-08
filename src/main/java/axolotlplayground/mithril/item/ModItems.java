@@ -21,11 +21,5 @@ public class ModItems {
 
     public static void registerModItems() {
         Mithril.LOGGER.info("Registering Mod Items for " + Mithril.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(MITHRIL_INGOT);
-            entries.add(RAW_MITHRIL);
-            entries.add(MITHRIL_NUGGET);
-        });
     }
 }

@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "mmm",
+        "mmm",
+        "mmm"
+    ],
+    "key": {
+        "m": {
+            "item": "mithril:mithril_ingot"
+        }
+    },
+    "result": {
+        "id": "mithril:mithril_block",
+        "count": 1
+    }
+}
