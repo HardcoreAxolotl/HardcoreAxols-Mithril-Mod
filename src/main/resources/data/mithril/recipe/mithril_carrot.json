@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "mmm",
+    "mam",
+    "mmm"
+  ],
+  "key": {
+    "m": {
+      "item": "mithril:mithril_nugget"
+    },
+    "a": {
+      "item": "minecraft:carrot"
+    }
+  },
+  "result": {
+    "id": "mithril:mithril_carrot",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "mmm",
+    "mam",
+    "mmm"
+  ],
+  "key": {
+    "m": {
+      "item": "mithril:mithril_block"
+    },
+    "a": {
+      "item": "minecraft:apple"
+    }
+  },
+  "result": {
+    "id": "mithril:enchanted_mithril_apple",
+    "count": 1
+  }
+}

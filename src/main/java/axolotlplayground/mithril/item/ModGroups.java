@@ -1,8 +1,7 @@
-package axolotlplayground.mithril.group;
+package axolotlplayground.mithril.item;
 
 import axolotlplayground.mithril.Mithril;
 import axolotlplayground.mithril.block.ModBlocks;
-import axolotlplayground.mithril.item.ModItems;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -20,6 +19,9 @@ public class ModGroups {
                         entries.add(ModItems.MITHRIL_INGOT);
                         entries.add(ModItems.RAW_MITHRIL);
                         entries.add(ModItems.MITHRIL_NUGGET);
+                        entries.add(ModItems.MITHRIL_CARROT);
+                        entries.add(ModItems.MITHRIL_APPLE);
+                        entries.add(ModItems.ENCHANTED_MITHRIL_APPLE);
                         entries.add(ModBlocks.MITHRIL_BLOCK);
                         entries.add(ModBlocks.MITHRIL_ORE);
                         entries.add(ModBlocks.RAW_MITHRIL_BlOCK);

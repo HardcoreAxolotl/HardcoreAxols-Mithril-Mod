@@ -2,8 +2,13 @@
   "item.mithril.mithril_ingot": "Mithril Ingot",
   "item.mithril.raw_mithril": "Raw Mithril",
   "item.mithril.mithril_nugget": "Mithril Nugget",
+  "item.mithril.mithril_carrot": "Mithril Carrot",
+  "item.mithril.mithril_apple": "Mithril Apple",
+  "item.mithril.enchanted_mithril_apple": "Enchanted Mithril Apple",
+
   "block.mithril.mithril_block": "Mithril Block",
   "block.mithril.mithril_ore": "Mithril Ore",
   "block.mithril.raw_mithril_block": "Block of Raw Mithril",
+
   "itemgroup.mithril.mithril": "Mithril"
 }
