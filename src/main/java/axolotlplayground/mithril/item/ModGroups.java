@@ -16,15 +16,24 @@ public class ModGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.MITHRIL_INGOT))
                     .displayName(Text.translatable("itemgroup.mithril.mithril"))
                     .entries((displayContext, entries) -> {
-                        entries.add(ModItems.MITHRIL_INGOT);
-                        entries.add(ModItems.RAW_MITHRIL);
-                        entries.add(ModItems.MITHRIL_NUGGET);
-                        entries.add(ModItems.MITHRIL_CARROT);
-                        entries.add(ModItems.MITHRIL_APPLE);
-                        entries.add(ModItems.ENCHANTED_MITHRIL_APPLE);
                         entries.add(ModBlocks.MITHRIL_BLOCK);
                         entries.add(ModBlocks.MITHRIL_ORE);
                         entries.add(ModBlocks.RAW_MITHRIL_BlOCK);
+
+                        entries.add(ModItems.MITHRIL_INGOT);
+                        entries.add(ModItems.RAW_MITHRIL);
+                        entries.add(ModItems.MITHRIL_NUGGET);
+
+                        entries.add(ModItems.MITHRIL_CARROT);
+                        entries.add(ModItems.MITHRIL_APPLE);
+                        entries.add(ModItems.ENCHANTED_MITHRIL_APPLE);
+
+                        entries.add(ModItems.MITHRIL_SWORD);
+                        entries.add(ModItems.MITHRIL_PICKAXE);
+                        entries.add(ModItems.MITHRIL_AXE);
+                        entries.add(ModItems.MITHRIL_SHOVEL);
+                        entries.add(ModItems.MITHRIL_HOE);
+
                     }).build());
 
     public static void registerItemGroups() {

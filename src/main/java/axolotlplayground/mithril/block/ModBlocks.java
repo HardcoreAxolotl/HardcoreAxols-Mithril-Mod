@@ -13,17 +13,17 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
 
     public static final Block MITHRIL_BLOCK = registerBlock("mithril_block", new Block(AbstractBlock.Settings.create()
-            .strength(10f, 1f)
+            .strength(60f, 2000f)
             .requiresTool()
             .sounds(BlockSoundGroup.NETHERITE)
     ));
     public static final Block MITHRIL_ORE = registerBlock("mithril_ore", new Block(AbstractBlock.Settings.create()
-            .strength(5f, 1f)
+            .strength(35f, 1200f)
             .requiresTool()
             .sounds(BlockSoundGroup.STONE)
     ));
     public static final Block RAW_MITHRIL_BlOCK = registerBlock("raw_mithril_block", new Block(AbstractBlock.Settings.create()
-            .strength(8f, 1f)
+            .strength(60f, 2000f)
             .requiresTool()
             .sounds(BlockSoundGroup.STONE)
     ));
