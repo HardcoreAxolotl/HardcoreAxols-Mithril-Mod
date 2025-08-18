@@ -12,14 +12,14 @@
   "icon": "assets/mithril/textures/item/mithril_ingot.png",
   "environment": "*",
   "entrypoints": {
-    "fabric-datagen": [
-      "axolotlplayground.mithril.MithrilDataGenerator"
+    "main": [
+      "axolotlplayground.mithril.Mithril"
     ],
     "client": [
       "axolotlplayground.mithril.MithrilClient"
     ],
-    "main": [
-      "axolotlplayground.mithril.Mithril"
+    "fabric-datagen": [
+      "axolotlplayground.mithril.MithrilDataGenerator"
     ]
   },
   "mixins": [

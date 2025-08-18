@@ -18,11 +18,12 @@ public class ModGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.MITHRIL_BLOCK);
                         entries.add(ModBlocks.MITHRIL_ORE);
-                        entries.add(ModBlocks.RAW_MITHRIL_BlOCK);
+                        entries.add(ModBlocks.RAW_MITHRIL_BLOCK);
 
                         entries.add(ModItems.MITHRIL_INGOT);
                         entries.add(ModItems.RAW_MITHRIL);
                         entries.add(ModItems.MITHRIL_NUGGET);
+                        entries.add(ModItems.MITHRIL_TEMPLATE);
 
                         entries.add(ModItems.MITHRIL_CARROT);
                         entries.add(ModItems.MITHRIL_APPLE);

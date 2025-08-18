@@ -22,7 +22,7 @@ public class ModBlocks {
             .requiresTool()
             .sounds(BlockSoundGroup.STONE)
     ));
-    public static final Block RAW_MITHRIL_BlOCK = registerBlock("raw_mithril_block", new Block(AbstractBlock.Settings.create()
+    public static final Block RAW_MITHRIL_BLOCK = registerBlock("raw_mithril_block", new Block(AbstractBlock.Settings.create()
             .strength(60f, 2000f)
             .requiresTool()
             .sounds(BlockSoundGroup.STONE)
