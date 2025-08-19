@@ -11,7 +11,7 @@ import axolotlplayground.mithril.util.ModTags;
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
-    MITHRIL(ModTags.Blocks.INCORRECT_FOR_MITHRIL_TOOL, 4096, 12.0F, 6.0F, 35, () -> Ingredient.ofItems(ModItems.MITHRIL_INGOT));
+    MITHRIL(ModTags.Blocks.INCORRECT_FOR_MITHRIL_TOOL, 4096, 15.0F, 6.0F, 40, () -> Ingredient.ofItems(ModItems.MITHRIL_INGOT));
 
     private final TagKey<Block> inverseTag;
     private final int itemDurability;

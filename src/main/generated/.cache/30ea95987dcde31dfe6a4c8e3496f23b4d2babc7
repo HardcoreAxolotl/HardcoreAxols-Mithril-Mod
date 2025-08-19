@@ -1,7 +1,15 @@
-// 1.21.1	2025-08-18T04:49:43.8949215	Mithril/Tags for minecraft:item
-af06e3d11c6d2bf7e16bb4c02ac509b95024232c data\minecraft\tags\item\enchantable\trident.json
+// 1.21.1	2025-08-19T11:09:36.5592258	Mithril/Tags for minecraft:item
+c666a099286bc87ab5a8348e5ba02c2acb8c93c6 data\minecraft\tags\item\leg_armor.json
 af06e3d11c6d2bf7e16bb4c02ac509b95024232c data\minecraft\tags\item\hoes.json
+6a2b6f4bdfa937462a1df43e99420265651913c3 data\minecraft\tags\item\enchantable\foot_armor.json
+b6fd84e73f84d3acc9c10bbc0781cf4ac18b5665 data\minecraft\tags\item\enchantable\chest_armor.json
 1acc91b3c804e09026f28a8aa89c40990bfa93dd data\minecraft\tags\item\pickaxes.json
-8cd5aafa5617c0422942f6d2d8d17cc95c99a2e3 data\minecraft\tags\item\shovels.json
+6a2b6f4bdfa937462a1df43e99420265651913c3 data\minecraft\tags\item\foot_armor.json
+dff85e2cf59e79bbb65cdb02acd0c64cacd7c8b2 data\minecraft\tags\item\trimmable_armor.json
 654add02e7fe3676bea8d813cca31b7dea559979 data\minecraft\tags\item\swords.json
 410de38da29fd607c8244214484d20e1f77595ca data\minecraft\tags\item\axes.json
+c666a099286bc87ab5a8348e5ba02c2acb8c93c6 data\minecraft\tags\item\enchantable\leg_armor.json
+febd283abda4b686be1859601a0c9de37a0cea34 data\minecraft\tags\item\head_armor.json
+b6fd84e73f84d3acc9c10bbc0781cf4ac18b5665 data\minecraft\tags\item\chest_armor.json
+8cd5aafa5617c0422942f6d2d8d17cc95c99a2e3 data\minecraft\tags\item\shovels.json
+febd283abda4b686be1859601a0c9de37a0cea34 data\minecraft\tags\item\enchantable\head_armor.json

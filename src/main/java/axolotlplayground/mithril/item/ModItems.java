@@ -1,6 +1,7 @@
 package axolotlplayground.mithril.item;
 
 import axolotlplayground.mithril.Mithril;
+import axolotlplayground.mithril.item.ModArmorMaterials;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -36,6 +37,24 @@ public class ModItems {
     public static final Item MITHRIL_HOE = registerItem("mithril_hoe",
             new HoeItem(ModToolMaterials.MITHRIL, new Item.Settings()
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.MITHRIL, 0, -3f))));
+
+    // Mithril Armor
+    public static final Item MITHRIL_HELMET = registerItem(
+            "mithril_helmet",
+            new ArmorItem(ModArmorMaterials.MITHRIL, ArmorItem.Type.HELMET, new Item.Settings().fireproof().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(46)))
+    );
+    public static final Item MITHRIL_CHESTPLATE = registerItem(
+            "mithril_chestplate",
+            new ArmorItem(ModArmorMaterials.MITHRIL, ArmorItem.Type.CHESTPLATE, new Item.Settings().fireproof().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(46)))
+    );
+    public static final Item MITHRIL_LEGGINGS = registerItem(
+            "mithril_leggings",
+            new ArmorItem(ModArmorMaterials.MITHRIL, ArmorItem.Type.LEGGINGS, new Item.Settings().fireproof().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(46)))
+    );
+    public static final Item MITHRIL_BOOTS = registerItem(
+            "mithril_boots",
+            new ArmorItem(ModArmorMaterials.MITHRIL, ArmorItem.Type.BOOTS, new Item.Settings().fireproof().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(46)))
+    );
 
     // register items
     private static Item registerItem(String name, Item item) {

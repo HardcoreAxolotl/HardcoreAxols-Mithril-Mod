@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#N#",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:end_stone"
+    },
+    "N": {
+      "item": "mithril:mithril_template"
+    },
+    "X": {
+      "item": "mithril:mithril_ingot"
+    }
+  },
+  "result": {
+    "id": "mithril:mithril_template",
+    "count": 2
+  }
+}

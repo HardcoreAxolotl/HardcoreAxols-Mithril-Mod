@@ -16,11 +16,27 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
-        // Normal vanilla tags for enchanting and recipes
+        // Tools
         getOrCreateTagBuilder(ItemTags.SWORDS).add(ModItems.MITHRIL_SWORD);
         getOrCreateTagBuilder(ItemTags.PICKAXES).add(ModItems.MITHRIL_PICKAXE);
         getOrCreateTagBuilder(ItemTags.AXES).add(ModItems.MITHRIL_AXE);
         getOrCreateTagBuilder(ItemTags.SHOVELS).add(ModItems.MITHRIL_SHOVEL);
         getOrCreateTagBuilder(ItemTags.HOES).add(ModItems.MITHRIL_HOE);
+
+        // Armor
+        getOrCreateTagBuilder(ItemTags.HEAD_ARMOR).add(ModItems.MITHRIL_HELMET);
+        getOrCreateTagBuilder(ItemTags.CHEST_ARMOR).add(ModItems.MITHRIL_CHESTPLATE);
+        getOrCreateTagBuilder(ItemTags.LEG_ARMOR).add(ModItems.MITHRIL_LEGGINGS);
+        getOrCreateTagBuilder(ItemTags.FOOT_ARMOR).add(ModItems.MITHRIL_BOOTS);
+
+        getOrCreateTagBuilder(ItemTags.HEAD_ARMOR_ENCHANTABLE).add(ModItems.MITHRIL_HELMET);
+        getOrCreateTagBuilder(ItemTags.CHEST_ARMOR_ENCHANTABLE).add(ModItems.MITHRIL_CHESTPLATE);
+        getOrCreateTagBuilder(ItemTags.LEG_ARMOR_ENCHANTABLE).add(ModItems.MITHRIL_LEGGINGS);
+        getOrCreateTagBuilder(ItemTags.FOOT_ARMOR_ENCHANTABLE).add(ModItems.MITHRIL_BOOTS);
+
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR).add(ModItems.MITHRIL_HELMET);
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR).add(ModItems.MITHRIL_CHESTPLATE);
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR).add(ModItems.MITHRIL_LEGGINGS);
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR).add(ModItems.MITHRIL_BOOTS);
     }
 }
