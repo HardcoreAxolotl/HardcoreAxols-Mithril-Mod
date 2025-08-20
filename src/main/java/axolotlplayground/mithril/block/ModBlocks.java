@@ -12,6 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
+
     public static final Block MITHRIL_BLOCK = registerBlock("mithril_block", new Block(AbstractBlock.Settings.create()
             .strength(60f, 2000f)
             .requiresTool()
